@@ -73,7 +73,7 @@ body {
     }
     &__logo {
         margin: 12.4rem auto 0;
-        // animation: rollDown 1s ease-in;
+        animation: rollDown 1s ease-in;
     }
     &__title {
         margin-top: 6.5rem;
@@ -81,10 +81,10 @@ body {
         font-weight: 600;
         color: $color-black;
         opacity: 1;
-        // transform: translateX(-100%);
-        // animation:
-        //     slideFromLeft 0.5s 0.5s ease-out forwards,
-        //     opaqueIn 1s ease-in forwards;
+        transform: translateX(-100%);
+        animation:
+            slideFromLeft 0.5s 0.5s ease-out forwards,
+            opaqueIn 1s ease-in forwards;
         @media (min-width: 700px) {
             margin-top: 5.8rem;
         }
@@ -96,10 +96,10 @@ body {
 
         line-height: 1.6;
         margin: 1.5rem auto;
-        // transform: translateY(100%);
-        // animation:
-        //     slideFromBottom 0.5s 0.5s ease forwards,
-        //     opaqueIn 1s ease-in;
+        transform: translateY(100%);
+        animation:
+            slideFromBottom 0.5s 0.5s ease forwards,
+            opaqueIn 1s ease-in;
 
         @media (min-width: 1100px) {
             margin: 1.5rem 20.5%;
@@ -123,7 +123,7 @@ body {
     flex-direction: column;
     gap: 2.6rem;
     margin-top: 4.8rem;
-    // animation: opaqueIn 1s ease;
+    animation: opaqueIn 1s ease;
 
     @media (min-width: 900px) {
         margin-top: 4.6rem;
