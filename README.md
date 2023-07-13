@@ -1,4 +1,5 @@
 #Clipboard Landing Page
+<br>
 This is the GitHub README file for the Clipboard landing page code.
 
 ##Introduction
