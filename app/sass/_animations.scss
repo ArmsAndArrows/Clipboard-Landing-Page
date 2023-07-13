@@ -1,0 +1,79 @@
+/* REMOVE UNUSED ANIMATIONS FOR BETTER PERFORMANCE */
+
+// @keyframes opaqueIn {
+//     0% {
+//         opacity: 0;
+//     }
+//     100% {
+//         opacity: 1;
+//     }
+// }
+
+// @keyframes slideFromLeft {
+//     0% {
+//         transform: translateX(-100%);
+//     }
+//     100% {
+//         transform: translate(0%);
+//     }
+// }
+// @keyframes slideFromRight {
+//     0% {
+//         transform: translateX(100%);
+//     }
+//     100% {
+//         transform: translate(0%);
+//     }
+// }
+// @keyframes slideFromBottom{
+//     0% {
+//         transform: translateY(100%);
+//     }
+//     100% {
+//         transform: translateY(0%);
+//     }
+// }
+
+// @keyframes rollDown {
+//     0% {
+//         transform: translateY(-300%) rotateZ(180deg);
+       
+//     }
+//     50%{
+//         opacity: 0;
+//     }
+//     100% {
+//         transform: translateY(0%) rotateZ(0deg);
+//         opacity: 1;
+//     }
+// }
+
+
+
+// ///ANIMATION CLASSES
+// /// 
+// /// 
+// /// 
+// .image{
+//     opacity: 0;
+// }
+// .title{
+//     opacity: 0;
+// }
+// .item{
+//     opacity: 0;
+// }
+
+
+// .slide-from-left{
+//     animation: slideFromLeft 0.3s ease, opaqueIn 1s linear forwards;
+// }
+// .slide-from-right{
+//     animation: slideFromRight 1s ease, opaqueIn 1s linear forwards;
+// }
+
+
+
+// .opacity-title{
+//     animation: opaqueIn 1s ease forwards;
+// }

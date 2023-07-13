@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script defer src="./js/main.min.js"></script>
+    <title>Frontend Mentor | Clipboard landing page</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="header">
+      <picture class="header__bck">
+        <source width="1439" height="363" media="(min-width:700px)" srcset="../images/bg-header-desktop.avif" />
+        <source width="1439" height="363" media="(min-width:700px)" srcset="../images/bg-header-desktop.webp" />
+        <source width="1439" height="363" media="(min-width:700px)" srcset="../images/bg-header-desktop.png" />
+        <source srcset="../images/bg-header-mobile.avif" />
+        <source srcset="../images/bg-header-mobile.webp" />
+        <img width="375" height="363"src="../images/bg-header-mobile.png" alt="background rocks" />
+      </picture>
+      <svg
+        class="header__logo"
+        width="125"
+        height="125"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd">
+          <circle cx="62.5" cy="62.5" r="57.5" />
+          <path
+            d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0"
+            stroke-linecap="round"
+          />
+        </g>
+      </svg>
+      <h2 class="header__title">A history of everything you copy</h2>
+      <p class="header__text">
+        Clipboard allows you to track and organize everything you copy.
+        Instantly access your clipboard on all your devices.
+      </p>
+      <div class="cta">
+        <button class="cta__button cta__button--cyan">Download for iOS</button>
+        <button class="cta__button cta__button--blue">Download for Mac</button>
+      </div>
+    </header>
+    <!--MAIN PART-->
+    <main class="container">
+      <h1 style="display: none">A history of everything you copy</h1>
+      <!--features-->
+      <section class="features">
+        <div class="title">
+          <h2 class="title__heading">Keep track of your snippets</h2>
+          <p class="title__text">
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
+          </p>
+        </div>
+        <article class="features__article article">
+          <picture class="article__picture">
+            <source srcset="../images/image-computer.avif" />
+            <source srcset="../images/image-computer.webp" />
+            <img width="752" height="572" loading="lazy" class="article__image image" src="../images/image-computer.png" alt="Mac Pro" />
+          </picture>
+          <ul class="article__list">
+            <li class="article__item item" >
+              <h3 class="article__title">Quick Search</h2>
+              <p class="article__text">
+                Easily search your snippets by content, category, web address, application, and more.
+              </p></li>
+              <li class="article__item item">
+                <h3 class="article__title">iCloud Sync</h2>
+                <p class="article__text">
+                  Instantly saves and syncs snippets across all your devices.
+                </p></li>
+              <li class="article__item item">
+                <h3 class="article__title">Complete History</h2>
+                <p class="article__text">
+                  Retrieve any snippets from the first moment you started using the app.
+                </p></li>
+          </ul>
+    
+        </article>
+      </section>
+      <section class="advantages">
+        <div class="title">
+          <h2 class="title__heading">Access Clipboard anywhere</h2>
+          <p class="title__text">
+            Whether you’re on the go, or at your computer, you can access all your Clipboard 
+snippets in a few simple clicks.
+          </p>
+        </div>
+        <picture class="advantages__picture">
+          <source srcset="../images/image-devices.avif" />
+          <source srcset="../images/image-devices.webp" />
+          <img height="575" width="905" loading="lazy" class="advantages__image image" src="../images/image-devices.png" alt="Devices" />
+        </picture>
+        
+      </section>
+      <section class="promo">
+        <div class="title">
+          <h2 class="title__heading">Supercharge your workflow</h2>
+          <p class="title__text promo__text">
+            We’ve got the tools to boost your productivity.
+          </p>
+        </div>
+       
+          <ul class="promo__list">
+            <li class="promo__item">
+              <img width="44" height="40" class="promo__icon" src="../images/icon-blacklist.svg" alt="blacklist icon">
+              <h3 class="promo__title">Create blacklists</h2>
+              <p class="promo__descr">
+                Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+              </p></li>
+              <li class="promo__item">
+                <img width="36" height="32" class="promo__icon" src="../images/icon-text.svg" alt="text icon">
+                <h3 class="promo__title">Plain text snippets</h2>
+                <p class="promo__descr">
+                  Remove unwanted formatting from copied text for a consistent look.
+                </p></li>
+              <li class="promo__item">
+                <img width="50" height="32" class="promo__icon" src="../images/icon-preview.svg" alt="preview icon">
+                <h3 class="promo__title">Sneak preview</h2>
+                <p class="promo__descr">
+                  Quick preview of all snippets on your Clipboard for easy access.
+                </p></li>
+          </ul>
+    
+    
+      </section>
+
+
+
+
+
+      <!--COMPANIES-->
+   
+      <section class="companies">
+        <h2 style="display: none">Companies</h2>
+       
+        <picture class="company">
+          <source srcset="../images/logo-google.avif" />
+          <source srcset="../images/logo-google.webp" />
+          <img  width="165" height="49" class="company__image" src="../images/logo-google.png" alt="google" />
+        </picture>
+        <picture class="company">
+          <source srcset="../images/logo-ibm.avif" />
+          <source srcset="../images/logo-ibm.webp" />
+          <img width="139" height="51" class="company__image" src="../images/logo-ibm.png" alt="ibm" />
+        </picture>
+        <picture class="company">
+          <source srcset="../images/logo-microsoft.avif" />
+          <source srcset="../images/logo-microsoft.webp" />
+          <img width="161" height="35" class="company__image" src="../images/logo-microsoft.png" alt="microsoft" />
+        </picture>
+        <picture class="company">
+          <source srcset="../images/logo-hp.avif" />
+          <source srcset="../images/logo-hp.webp" />
+          <img width="132" height="56" class="company__image" src="../images/logo-hp.png" alt="hp" />
+        </picture>
+        <picture class="company">
+          <source srcset="../images/logo-vector-graphics.avif" />
+          <source srcset="../images/logo-vector-graphics.webp" />
+          <img width="125" height="30" class="company__image" src="../images/logo-vector-graphics.png" alt="vector graphics" />
+        </picture>
+
+
+      </section>
+    </div>
+      
+      
+
+      <!-- try to replace companies-->
+      
+      <div class="swiper companies">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><picture class="company">
+            <source srcset="../images/logo-google.avif" />
+            <source srcset="../images/logo-google.webp" />
+            <img height="49" width="165" class="company__image" src="../images/logo-google.png" alt="google" />
+          </picture></div>
+          <div class="swiper-slide"><picture class="company">
+            <source srcset="../images/logo-ibm.avif" />
+            <source srcset="../images/logo-ibm.webp" />
+            <img height="51" width="139" class="company__image" src="../images/logo-ibm.png" alt="ibm" />
+          </picture></div>
+          <div class="swiper-slide"><picture class="company">
+            <source srcset="../images/logo-microsoft.avif" />
+            <source srcset="../images/logo-microsoft.webp" />
+            <img width="161" height="35" class="company_`111_image" src="../images/logo-microsoft.png" alt="microsoft" />
+          </picture></div>
+          <div class="swiper-slide"><picture class="company">
+            <source srcset="../images/logo-hp.avif" />
+            <source srcset="../images/logo-hp.webp" />
+            <img width="135" height="56"  class="company__image" src="../images/logo-hp.png" alt="hp" />
+          </picture></div>
+          <div class="swiper-slide"> <picture class="company">
+            <source srcset="../images/logo-vector-graphics.avif" />
+            <source srcset="../images/logo-vector-graphics.webp" />
+            <img width="125" height="30"  class="company__image" src="../images/logo-vector-graphics.png" alt="vector graphics" />
+          </picture></div>
+          <div class="swiper-slide"><picture class="company">
+            <source srcset="../images/logo-google.avif" />
+            <source srcset="../images/logo-google.webp" />
+            <img height="49" width="165" class="company__image" src="../images/logo-google.png" alt="google" />
+          </picture></div>
+          <div class="swiper-slide"><picture class="company">
+            <source srcset="../images/logo-ibm.avif" />
+            <source srcset="../images/logo-ibm.webp" />
+            <img height="51" width="139" class="company__image" src="../images/logo-ibm.png" alt="ibm" />
+          </picture></div>
+          <div class="swiper-slide"><picture class="company">
+            <source srcset="../images/logo-microsoft.avif" />
+            <source srcset="../images/logo-microsoft.webp" />
+            <img width="161" height="35" class="company_`111_image" src="../images/logo-microsoft.png" alt="microsoft" />
+          </picture></div>
+          <div class="swiper-slide"><picture class="company">
+            <source srcset="../images/logo-hp.avif" />
+            <source srcset="../images/logo-hp.webp" />
+            <img width="135" height="56"  class="company__image" src="../images/logo-hp.png" alt="hp" />
+          </picture></div>
+          <div class="swiper-slide"> <picture class="company">
+            <source srcset="../images/logo-vector-graphics.avif" />
+            <source srcset="../images/logo-vector-graphics.webp" />
+            <img width="125" height="30"  class="company__image" src="../images/logo-vector-graphics.png" alt="vector graphics" />
+          </picture></div>
+          
+          
+    
+        </div>
+       
+      </div>
+      
+      
+      
+      
+      
+      <!--DOWNLOAD-->
+      <section class="download">
+         
+        
+        <h2 class="download__title">Clipboard for iOS and Mac OS</h2>
+        <p class="download__text">
+          Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+and you’re ready to start adding to your clipboard.
+        </p>
+        <div class="cta">
+          <button class="cta__button cta__button--cyan">Download for iOS</button>
+          <button class="cta__button cta__button--blue">Download for Mac</button>
+        </div>
+      </section>
+     
+    </main>
+    <footer class="footer">
+      <div class="contacts">
+      <svg class="footer__logo" width="125" height="125" xmlns="http://www.w3.org/2000/svg"><g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd"><circle cx="62.5" cy="62.5" r="57.5"/><path d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0" stroke-linecap="round"/></g></svg>
+      <ul class="footer__list list">
+        <li class="footer__item"><a class="footer__link" href=".">FAQs</a></li>
+        <li class="footer__item"><a class="footer__link" href=".">Contact Us</a></li>
+        <li class="footer__item"><a class="footer__link" href=".">Privacy Policy</a></li>
+        <li class="footer__item"><a class="footer__link" href=".">Press Kit</a></li>
+        <li class="footer__item"><a class="footer__link" href=".">Install Guide</a></li>
+      </ul>
+      </div>
+      <ul class="social">
+        <li class="social__item"><a class="social__link" href="." aria-label="facebook"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" fill="#4C545C"/></svg></a></li>
+        <li class="social__item"><a class="social__link" href="." aria-label="twitter"><svg width="24" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z" fill="#4C545C"/></svg></a></li>
+        <li class="social__item"><a class="social__link" href="." aria-label="instagram"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" fill="#4C545C"/></svg></a></li>
+        
+      </ul>
+
+    </footer>
+    <link
+    rel="stylesheet"
+ 
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  
+  </body>
+</html>
